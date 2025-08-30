@@ -1,59 +1,32 @@
-# Movieflx
+# Movie Flx
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+Este projeto Angular tem como objetivo montar o layout do Movie Flx, seguindo o design disponível no Figma abaixo:
 
-## Development server
+[Figma - Movie Flx](https://www.figma.com/proto/FSkHiMRTRa09CljCjXmedJ/P%C3%A1ginas-Hor%C3%A1cio?node-id=195-21)
 
-To start a local development server, run:
+## Etapas do Projeto
 
-```bash
-ng serve
-```
+1. **Layout Inicial:**  
+   Vamos construir o layout utilizando dados mockados (Mocks) para simular as informações dos filmes e demais conteúdos.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+2. **Integração com Backend:**  
+   Após a finalização do layout e funcionalidades básicas, integraremos o projeto com um backend desenvolvido em .NET C#.  
+   O link para o repositório do backend será adicionado posteriormente.
 
-## Code scaffolding
+## Como rodar o projeto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Instale as dependências:
+   ```
+   npm install
+   ```
 
-```bash
-ng generate component component-name
-```
+2. Inicie o servidor de desenvolvimento:
+   ```
+   ng serve
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+3. Acesse no navegador:
+   ```
+   http://localhost:4200
+   ```
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
