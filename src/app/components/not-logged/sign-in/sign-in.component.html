@@ -1,1 +1,21 @@
-<p>sign-in works! LOGIN</p>
+<div id="sign-in-container" class="d-flex flex-column align-items-center justify-content-center">
+    <form class="w-100" style="max-width: 500px;">
+        <h1 class="text-center fw-bold mb-4" style="font-size: 2.5rem;">Entre na sua conta</h1>
+        <div class="mb-3">
+            <input type="text" class="form-control bg-dark text-white border-0 py-3" placeholder="E-mail ou número de telefone" style="font-size: 1.1rem; opacity: 0.8;" />
+        </div>
+        <div class="mb-4">
+            <input type="password" class="form-control bg-dark text-white border-0 py-3" placeholder="Sua senha"/>
+        </div>
+        <div class="d-grid mb-3">
+            <button type="submit" class="btn btn-danger fw-bold py-3">Entrar na conta</button>
+        </div>
+        <div class="text-center mb-4">
+            <a routerLink="/cadastre-se" class="text-white-50 text-decoration-none">Esqueci minha senha</a>
+        </div>
+        <div class="text-center">
+            <span class="text-white-50" style="font-size: 1.1rem;">Novo por aqui? </span>
+            <a routerLink="/cadastre-se" class="fw-bold text-danger text-decoration-none" style="font-size: 1.1rem;">Assine agora</a>
+        </div>
+    </form>
+</div>
