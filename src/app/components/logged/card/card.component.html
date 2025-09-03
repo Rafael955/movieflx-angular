@@ -1,1 +1,13 @@
-<p>card works!</p>
+<div class="movie-card">
+	<span class="badge-top10" *ngIf="top10">TOP 10</span>
+	<h2 class="movie-title">{{ title }}</h2>
+	<p class="movie-desc">{{ description }}</p>
+	<div class="movie-infos d-flex align-items-center flex-wrap gap-3 mb-3">
+		<span class="info-item" *ngIf="duration"><i class="bi bi-clock"></i> {{ duration }}</span>
+		<span class="info-item" *ngIf="ageRating"><i [class]="ageRatingSymbol"></i> {{ ageRating }}</span>
+		<span class="info-item" *ngIf="approval"><i class="bi bi-heart-fill"></i> {{ approval }}</span>
+	</div>
+    <div class="service-logo" *ngIf="serviceLogo">
+        <img [src]="serviceLogo" [alt]="serviceName || 'Serviço'" />
+    </div>
+</div>

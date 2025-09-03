@@ -1,0 +1,152 @@
+#header {
+    background: #090909;
+    min-height: 70px;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 100px;
+    padding-left: 5%;
+}
+
+.header-logo {
+    height: 56px;
+    width: auto;
+    margin-right: 36px;
+}
+
+.header-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #232323;
+    background: #232323;
+}
+
+.header-right {
+    gap: 18px;
+    min-width: 350px;
+}
+
+.search-addon {
+    color: #b3b3b3;
+    font-size: 1.3rem;
+    background: #232323 !important;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 8px 0 0 8px !important;
+}
+
+.search-input {
+    background: #232323 !important;
+    border-radius: 0 8px 8px 0 !important;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    height: 44px;
+    box-shadow: none;
+}
+
+.search-input:focus {
+    background: #232323 !important;
+    color: #fff;
+    box-shadow: 0 0 0 2px #e50914;
+}
+
+.search-input::placeholder {
+    color: #b3b3b3 !important;
+    opacity: 1 !important;
+    text-align: center;
+}
+#header .search-container .form-control::placeholder {
+    color: #b3b3b3 !important;
+    opacity: 1 !important;
+    text-align: center;
+}
+
+#header .search-container .form-control {
+    text-align: center;
+}
+
+#header .input-group-text {
+    color: #b3b3b3;
+    font-size: 1.3rem;
+    background: #232323 !important;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#header {
+    background: #090909;
+    min-height: 70px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#header .nav-link {
+    color: #fff !important;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    transition: color 0.2s;
+}
+
+#header .nav-link:hover {
+    color: #e50914 !important;
+}
+
+#header .form-control {
+    background: #232323 !important;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    height: 44px;
+    box-shadow: none;
+}
+
+#header .form-control:focus {
+    background: #232323 !important;
+    color: #fff;
+    box-shadow: 0 0 0 2px #e50914;
+}
+
+#header .form-control::placeholder {
+    color: #b3b3b3 !important;
+    margin-right: 25px;
+}
+
+#header .bi-search {
+    font-size: 1.3rem;
+    color: #b3b3b3;
+}
+
+#header img[alt="Avatar"] {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #232323;
+    background: #232323;
+}
+
+#header img[alt="MovieFlx"] {
+    height: 56px;
+    width: auto;
+    margin-right: 36px;
+}
+#header {
+    height:100px;
+    padding-left: 5%;
+}
+
+.logo img {
+    height: 80px;
+    margin-top: 10px;
+}
