@@ -21,6 +21,18 @@ form input.form-control {
     min-width: 320px;
 }
 
+form select.form-control {
+    background-color: #333333 !important;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    opacity: 0.8;
+    padding-left: 25px;
+    max-width: 400px;
+    min-width: 320px;
+}
+
 form input.form-control:focus {
     background-color: #222 !important;
     color: #fff;
@@ -51,10 +63,6 @@ a.text-danger {
 
 a.text-danger:hover {
     text-decoration: underline;
-}
-
-.text-white-50 {
-    color: #b3b3b3 !important;
 }
 
 .form-container {
