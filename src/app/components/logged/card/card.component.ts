@@ -20,16 +20,37 @@ export class CardComponent {
   @Input() serviceName?: string;
 
   ageRatingSymbol: any = "bi bi-exclamation-triangle";
+  approvalRatingColor: any = "text-white";
 
   ngOnInit(){
+    this.defineAgeRatingSymbol();
+    this.defineApprovalRatingColor();
+  }
+
+  defineAgeRatingSymbol() {
     if(this.ageRating === 'Livre' || this.ageRating === '0 anos'){
-      this.ageRatingSymbol = "bi bi-emoji-smile";
+      this.ageRatingSymbol = "✅";
     } else if(this.ageRating === '12 anos' || this.ageRating === '14 anos'){
-      this.ageRatingSymbol = "bi bi-hand-thumbs-up";
+      this.ageRatingSymbol = "👍";
     } else if(this.ageRating === '16 anos' || this.ageRating === '+16') {
-      this.ageRatingSymbol = "bi bi-exclamation-circle";
+      this.ageRatingSymbol = "⚠️";
     } if(this.ageRating === '18 anos' || this.ageRating === '+18' || this.ageRating === 'Somente +18') {
-      this.ageRatingSymbol = "bi bi-exclamation-triangle";
+      this.ageRatingSymbol = "🔞";
     }
   }
+
+  defineApprovalRatingColor() {
+    if(Number(this.approval) >= 75) {
+          this.approvalRatingColor = "text-good-rating";
+        }
+        else if(Number(this.approval) >= 30 && Number(this.approval) < 75) {
+          this.approvalRatingColor = "text-medium-rating";
+        }
+        else {
+          this.approvalRatingColor = "text-low-rating";
+        }
+
+        this.approval += '% Aprovação';
+  }
 }
+

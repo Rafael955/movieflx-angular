@@ -3,9 +3,9 @@
 	<h2 class="movie-title">{{ title }}</h2>
 	<p class="movie-desc">{{ description }}</p>
 	<div class="movie-infos d-flex align-items-center flex-wrap gap-3 mb-3">
-		<span class="info-item" *ngIf="duration"><i class="bi bi-clock"></i> {{ duration }}</span>
-		<span class="info-item" *ngIf="ageRating"><i [class]="ageRatingSymbol"></i> {{ ageRating }}</span>
-		<span class="info-item" *ngIf="approval"><i class="bi bi-heart-fill"></i> {{ approval }}</span>
+		<span class="info-item" *ngIf="duration">🕓{{ duration }}</span>
+		<span class="info-item" *ngIf="ageRating">{{ageRatingSymbol}}{{ ageRating }}</span>
+		<span class="info-item {{approvalRatingColor}}" *ngIf="approval">🏆{{ approval }}</span>
 	</div>
     <div class="service-logo" *ngIf="serviceLogo">
         <img [src]="serviceLogo" [alt]="serviceName || 'Serviço'" />
