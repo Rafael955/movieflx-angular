@@ -1,11 +1,11 @@
 #sign-in-container {
-    background: rgba(0,0,0,0.85);
+    background: #131313;
     color: #fff;
     border-radius: 18px;
     padding: 62px;
     box-shadow: 0 4px 32px rgba(0,0,0,0.7);
     margin: 40px auto;
-    max-width: 540px;
+    max-width: 780px;
     min-width: 320px;
 }
 
@@ -17,6 +17,8 @@ form input.form-control {
     font-size: 1.1rem;
     opacity: 0.8;
     padding-left: 25px;
+    max-width: 400px;
+    min-width: 320px;
 }
 
 form input.form-control:focus {
@@ -53,4 +55,27 @@ a.text-danger:hover {
 
 .text-white-50 {
     color: #b3b3b3 !important;
+}
+
+.form-container {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    max-width: 300px;
+    margin-top: 60px;
+}
+
+.custom-input {
+  background: #333;
+  color: #ccc;
+  border: none;
+  border-radius: 8px;
+  padding-right: 2.5rem;
 }
