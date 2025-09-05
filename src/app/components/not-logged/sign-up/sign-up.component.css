@@ -50,7 +50,7 @@ a.text-danger {
 }
 
 a.text-danger:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .text-white-50 {

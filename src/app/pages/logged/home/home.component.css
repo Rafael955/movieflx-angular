@@ -1,3 +1,14 @@
-.teste {
+.cards-container {
     margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buttons-container {
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

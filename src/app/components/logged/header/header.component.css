@@ -1,10 +1,9 @@
 #header {
     background: #090909;
     min-height: 70px;
-    padding-left: 32px;
-    padding-right: 32px;
-    height: 100px;
-    padding-left: 5%;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* Removido height fixa para responsividade */
 }
 
 .header-logo {
@@ -85,8 +84,8 @@
 #header {
     background: #090909;
     min-height: 70px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #header .nav-link {
@@ -142,8 +141,24 @@
     margin-right: 36px;
 }
 #header {
-    height:100px;
-    padding-left: 5%;
+        /* Removido height fixa para responsividade */
+        padding-left: 16px;
+        padding-right: 16px;
+}
+
+@media (max-width: 991.98px) {
+    #header {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .header-right {
+        min-width: unset;
+        gap: 8px;
+    }
+    .header-logo {
+        height: 40px !important;
+        margin-right: 12px !important;
+    }
 }
 
 .logo img {

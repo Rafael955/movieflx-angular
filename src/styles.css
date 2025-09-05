@@ -2,3 +2,7 @@ body {
     background-color: #060606;
     color: #ffffff;
 }
+
+.active {
+    color: #ff0000;
+}
